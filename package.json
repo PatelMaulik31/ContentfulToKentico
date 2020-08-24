@@ -1,0 +1,21 @@
+{
+  "name": "contentfultokenticoassetmigrate",
+  "version": "1.0.3",
+  "description": "You can migrate contentful asset to Kentico using this package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maulik Patel",
+  "license": "MIT",
+  "dependencies": {
+    "@kentico/kontent-management": "^0.3.20",
+    "contentful": "^7.14.6",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "https-proxy-agent": "^5.0.0",
+    "path": "^0.12.7",
+    "request": "^2.88.2",
+    "rxjs": "^6.6.2"
+  }
+}
